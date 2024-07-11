@@ -1,0 +1,22 @@
+Usage
+-----
+x2y is a simple image converter which supports converting multiple images to a new format. This program allows you to convert images in just 4 easy steps.
+
+First, add any images you want to convert to the list. The add images button allows you to add multiple images at the same time. The add directory button adds all the images in the directory you select. Note: It doesn't add images from subdirectories.
+
+Next, select a directory to save the images to. If you would like, you can save the images in their original directory instead. Click the checkbox for "Save in original directory."
+
+Thirdly, select a format to convert to and select any options. The options menu allows you to set various options, such as the quality of jpeg images, whether or not pngs are interlaced, whether or not certain formats use compression, and if x2y should be allowed to overwrite existing images.
+
+Finally click the "Convert!" button. All your images will (hopefully ;) ) be converted to the selected format. It was easy, wasn't it?
+
+
+Features
+--------
+Converting multiple files from different directories to a new format.
+The ability to preview of each image.
+The following file formats are supported:
+Loading .bmp, .cut, .dds, .gif, .ico, .cur, .jpg, .jpeg, .lbm, .mng, .pbm, .pcd, .pcx, .pgm, .pic, .png, .ppm, .psd, .psp, .raw, .sgi, and .tga.
+Saving .bmp, .dds, .jpg, .pcx, .pgm, .png, .ppm, .raw, .sgi, and .tga.
+
+If you have any questions, problems, or suggestions, please email me at extoowhy@yahoo.com. Thanks!

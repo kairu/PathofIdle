@@ -1,0 +1,46 @@
+x2y version 0.1
+---------------
+Since this is not a beta release, I tried to make it as stable as possible. Lets hope it worked... :)
+Changes in this release:
+1) Some bugfixes, don't remember what exactly.
+2) Removed certain file formats that weren't working. No more loading of tiffs, half life models and no more saving of tiffs, pbms, pals, and headers. I'll try to get some of these added back in the future.
+3) Added a status bar to show how far along the conversion is. When you're converting a large amount of files, this is pretty useful. I think the conversion process might be a little bit faster than before also, but I'm not sure.
+4) Under the preview image I added some file statistics. It shows the file name, size, creation date, last modified date, and last accessed date. (what's the point of the last accessed date anyway? As soon as you check the date, that counts as accessing it. So it always says the current day.)
+5) Put up the x2y webpage at sourceforge.net.
+
+I think there are going to be some huge changes in the next version of x2y. stay tuned!
+
+
+
+x2y version 0.1 beta
+--------------------
+This version fixes a lot of things from the alpha version.
+1) Add directory was broken in the last version. It's fixed now.
+2) Other bugs probably fixed that I forgot about.
+3) You can now choose a directory to save the images into. There's also a checkbox that allows you to save them in the same directory as the original image if you'd rather do that.
+4) Added the options. You can set jpeg quality, if pngs are interlaced, if certain formats get compressed, and if the program should be allowed to overwrite existing images.
+5) added various error messages. There will be popups if you haven't selected any images to convert, if you haven't selected a directory to save the images to, etc.
+6) This release is now saved in the 7zip format instead of plain zip. Since probably not to many people have 7zip, I made it a self extracting archive. Even though it's a self extracting exe, its still 25% smaller than a zip file.
+
+bugs in this release:
+1) Saving as a .tif crashes the program. I have no idea why. I think it's a problem in the DevIL dll. If anyone has any info on this, please email me.
+2) Saving a bmp with rle compression doesnt work. It just saves the bmp uncompressed. Again I think this is a problem with DevIL. Saving TGAs and SGIs with RLE works fine, so I don't know why it doesn't work for BMPs.
+
+things to add to the next release (maybe):
+1) The image viewer. Probably a seperate exe which will allow you to view images in any of the formats DevIL supports. You will be able to associate it with image formats as well, so when you click on a png or whatever it will open in the x2y image viewer.
+2) Maybe add a single file converter with a few different options. Like you could rename the image as something else, or maybe resize it, or something.
+3) Maybe add shell integration. You could right click on a bmp, and there would be an option "Convert to PNG" or whatever you wanted.
+4) Want anything else? E-Mail me at extoowhy@yahoo.com and your features may get added!
+ 
+
+
+x2y version 0.1 alpha
+---------------------
+Well, here it is, the first release. The program has plenty of bugs, and I cannot be held responsible for any damage this causes to your computer. :) This version has many limitations, like:
+1) You can't choose where to save the images, they're all saved in the new format in the same directory as the image they're being converted from. 
+2) You can't set any options (changing jpg quality, setting if pngs are interlaced, etc.)
+3) There aren't any error messages, you won't be warned if anything goes wrong.
+4) I'm sure there are plenty others I forgot about.
+
+Anyway, please report any bugs you find to me. You can do this either by emailing me at extoowhy@yahoo.com , or posting a message at the sourceforge site ( www.sourceforge.net/projects/x2y/ )
+Oh and request any features you would like to see in the future as well :) Thanks!
